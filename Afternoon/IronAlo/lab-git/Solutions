@@ -1,0 +1,8 @@
+2. Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro.
+mkdir IronAlo 
+cd IronAlo 
+git init 
+
+3. Clone that repo to your computer.
+
+4. 

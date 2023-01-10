@@ -1,0 +1,58 @@
+2. Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro.
+mkdir IronAlo 
+cd IronAlo 
+git init 
+git remote add origin https://github.com/KAAR1998/lab-git.git
+
+3. Clone that repo to your computer.
+mkdir clone 
+ls
+cd clone 
+git clone https://github.com/KAAR1998/lab-git.git
+
+4. Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt).
+cd ../..
+ls
+cd lab-git
+ls
+echo "I once ran with the bulls by accident" > about.txt 
+open about.txt (to verify it worked)
+
+5. Add the file you just created to the git.
+git add /Users/aloaskari/Desktop/Ironhack/Bootcamp/Week_1/Day_1/Afternoon/IronAlo/lab-git/clone/about.txt
+
+6. Commit the changes. 
+git commit -m "Added fun fact file" 
+
+7. Push the changes to the GitHub and check your repository to make sure everything is there. 
+git push origin master 
+(SAYS AUTHENTICATION FAILED WHEN PASSWORD IS RIGHT)
+
+Pair Programming Exercise 
+
+1. Fork your classmate's repository.
+mkdir IronJoana
+cd IronJoana
+mkdir clonejoana
+cd clonejoana
+git init
+git remote add origin https://github.com/KAAR1998/IronJoana
+
+2. Clone the repository, so that you have it locally and can make changes.
+git clone https://github.com/KAAR1998/IronJoana.git
+
+3. Create a new branch named classmate.
+Didn't work for some reason 
+
+
+4. Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+cd ../
+touch alo.txt
+echo "I enrolled in Ironhack's Data Analytics bootcamp because I'd like to become a Data Analyst" > alo.txt
+git add /Users/aloaskari/Desktop/Ironhack/Bootcamp/Week_1/Day_1/Afternoon/IronAlo/IronJoana                                                                    
+	error: 'IronJoana/clonejoana/' does not have a commit checked out
+	fatal: adding files failed
+git push origin master
+	error: src refspec master does not match any
+	error: failed to push some refs to 'https://github.com/KAAR1998/lab-git.git'
+
